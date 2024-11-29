@@ -1,11 +1,14 @@
 {
+  "homepage":"https://awanthiy.github.io/NewPorthfolio",
   "name": "myporhfoliore",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
+    "predeploy":"npm run build",
+     "deploy":"npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

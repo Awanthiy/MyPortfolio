@@ -62,7 +62,7 @@ const Navbar = () => {
         <a href='#services' onClick={closeMenu}>Services</a>
         </li>
         <li>
-        <a href='#porthfolio' onClick={closeMenu}>Porthfolio</a>
+        <a href='#porthfolio' onClick={closeMenu}>Portfolio</a>
         </li>
         <li>
         <a href='#contact' onClick={closeMenu}>Contact</a>
