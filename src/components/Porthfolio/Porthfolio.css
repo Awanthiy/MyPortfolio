@@ -1,0 +1,161 @@
+.porthfolio{
+    padding: 50px 0;
+
+}
+ 
+.work-list{
+     
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        grid-gap:40px;
+        margin-top: 50px;
+        padding: 5%;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    }
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    height: 380px;
+    }
+
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(80, 176, 176));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-right: 70px;
+    }
+
+.layer p{
+        color: aliceblue;
+        margin-bottom: 10px;
+        font-size: 15px;
+        margin-right: 70px;
+        }    
+.layer a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.work:hover img{
+    transform: scale(1.1);
+ }
+
+ .work:hover .layer{
+    height: 100%;
+ }
+
+ .sub-title2 {
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 60px;
+ }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .porthfolio {
+        padding: 30px 0;
+    }
+
+    .work-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+        padding: 5%;
+    }
+
+    .work img {
+        height: 300px; /* Reduced image height */
+    }
+
+    .layer h3 {
+        font-size: 24px;
+        margin-right: 0;
+    }
+
+    .layer p {
+        font-size: 13px;
+        margin-right: 0;
+    }
+
+    .layer a {
+        font-size: 16px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .sub-title2 {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .porthfolio {
+        padding: 20px 0;
+    }
+
+    .work-list {
+        grid-template-columns: 1fr; /* Single-column layout */
+        grid-gap: 20px;
+        padding: 5%;
+    }
+
+    .work img {
+        height: 250px; /* Further reduced image height */
+    }
+
+    .layer h3 {
+        font-size: 20px;
+    }
+
+    .layer p {
+        font-size: 12px;
+    }
+
+    .layer a {
+        font-size: 14px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .sub-title2 {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+}
