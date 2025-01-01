@@ -56,19 +56,6 @@
         margin-bottom: 10px;
         font-size: 15px;
         margin-right: 70px;
-        }    
-.layer a{
-    margin-top: 20px;
-    color: #ff004f;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    
 }
 
 .work:hover img{
@@ -148,10 +135,20 @@
     }
 
     .layer a {
-        font-size: 14px;
-        line-height: 40px;
-        width: 40px;
-        height: 40px;
+        color: #fff; /* White text for the link */
+        text-decoration: none; /* Removes underline */
+        font-size: 18px;
+        font-weight: bold; /* Makes the text bold */
+        background-color: #0078d4; /* Optional background color */
+        padding: 10px 20px; /* Padding for better appearance */
+        border-radius: 5px; /* Rounded corners */
+        display: inline-block; /* Makes it behave like a button */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    }
+    
+    .layer a:hover {
+        background-color: #0053a3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slight zoom effect on hover */
     }
 
     .sub-title2 {

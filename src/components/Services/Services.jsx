@@ -17,7 +17,7 @@ const Services = () => {
               I am doing UI designing using Figma. Here are some app and
               website designs I created using Figma.
             </p>
-            <a href="pp.html">See more</a>
+            <a href="#porthfolio">See more</a>
           </div>
           <div>
             <i className="fa-solid fa-code"></i>
@@ -27,7 +27,7 @@ const Services = () => {
             <p>
               I create websites using HTML, CSS, and JavaScript.
             </p>
-            <a href="pp.html">See more</a>
+            <a href="#porthfolio">See more</a>
           </div>
         </div>
       </div>

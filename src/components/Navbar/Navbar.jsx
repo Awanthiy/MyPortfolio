@@ -53,7 +53,7 @@ const Navbar = () => {
 
       <ul className={click ? "nav-links active" : "nav-links" }>
         <li>
-        <a href='/' onClick={closeMenu}>Home</a>
+        <a href='#home' onClick={closeMenu}>Home</a>
         </li>
         <li>
         <a href='#aboutus' onClick={closeMenu}>About</a>
